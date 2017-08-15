@@ -7,6 +7,12 @@ How to start
 --------------------------
 Registe course and you can access it.
 
+Features
+------------------
+- coding example
+- good tutorial for beginners
+- high quantity assignments 
+
 Credit
 -----------
 Credit by [Shine](http://github.com/rh01)
