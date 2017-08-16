@@ -1,6 +1,6 @@
 About
 ==========
-The [Structuring Machine Learning Projects](https://www.coursera.org/learn/machine-learning-projects/home/)  course is the second course of [deep learning specialization](https://www.coursera.org/specializations/deep-learning). The  Course contains some techniques concepts and framwork such as TensorFlow etc. Happy holiday :airplane:.
+The [Structuring Machine Learning Projects](https://www.coursera.org/learn/machine-learning-projects/home/)  course is the third course of [deep learning specialization](https://www.coursera.org/specializations/deep-learning). The  Course contains some techniques concepts and framwork such as TensorFlow etc. Happy holiday :airplane:.
 
 How to start
 --------------------------
