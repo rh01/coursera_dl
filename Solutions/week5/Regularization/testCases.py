@@ -5,34 +5,37 @@
 <head>
     <meta charset="utf-8">
 
-    <title>train_catvnoncat.h5 (editing)</title>
-    <link rel="shortcut icon" type="image/x-icon" href="/user/rsyupkepiurvgowltvfsjj/static/base/images/favicon.ico?v=30780f272ab4aac64aa073a841546240">
+    <title>testCases.py (editing)</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/user/vwbrqcmbtpstwcalfskekj/static/base/images/favicon.ico?v=97c6417ed01bdc0ae3ef32ae4894fd03">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="stylesheet" href="/user/rsyupkepiurvgowltvfsjj/static/components/jquery-ui/themes/smoothness/jquery-ui.min.css?v=9b2c8d3489227115310662a343fce11c" type="text/css" />
-    <link rel="stylesheet" href="/user/rsyupkepiurvgowltvfsjj/static/components/jquery-typeahead/dist/jquery.typeahead.min.css?v=7afb461de36accb1aa133a1710f5bc56" type="text/css" />
+    <link rel="stylesheet" href="/user/vwbrqcmbtpstwcalfskekj/static/components/jquery-ui/themes/smoothness/jquery-ui.min.css?v=9b2c8d3489227115310662a343fce11c" type="text/css" />
+    <link rel="stylesheet" href="/user/vwbrqcmbtpstwcalfskekj/static/components/jquery-typeahead/dist/jquery.typeahead.min.css?v=7afb461de36accb1aa133a1710f5bc56" type="text/css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     
-<link rel="stylesheet" href="/user/rsyupkepiurvgowltvfsjj/static/components/codemirror/lib/codemirror.css?v=2336fb49f85e9fa887ada9af35223dce">
-<link rel="stylesheet" href="/user/rsyupkepiurvgowltvfsjj/static/components/codemirror/addon/dialog/dialog.css?v=c89dce10b44d2882a024e7befc2b63f5">
+<link rel="stylesheet" href="/user/vwbrqcmbtpstwcalfskekj/static/components/codemirror/lib/codemirror.css?v=f25e9a9159e54b423b5a8dc4b1ab5c6e">
+<link rel="stylesheet" href="/user/vwbrqcmbtpstwcalfskekj/static/components/codemirror/addon/dialog/dialog.css?v=c89dce10b44d2882a024e7befc2b63f5">
 
-    <link rel="stylesheet" href="/user/rsyupkepiurvgowltvfsjj/static/style/style.min.css?v=f6c09475baf6beabd41f8fe518601204" type="text/css"/>
+    <link rel="stylesheet" href="/user/vwbrqcmbtpstwcalfskekj/static/style/style.min.css?v=29c09309dd70e7fe93378815e5f022ae" type="text/css"/>
     
 
-    <link rel="stylesheet" href="/user/rsyupkepiurvgowltvfsjj/custom/custom.css" type="text/css" />
-    <script src="/user/rsyupkepiurvgowltvfsjj/static/components/es6-promise/promise.min.js?v=f004a16cb856e0ff11781d01ec5ca8fe" type="text/javascript" charset="utf-8"></script>
-    <script src="/user/rsyupkepiurvgowltvfsjj/static/components/requirejs/require.js?v=6da8be361b9ee26c5e721e76c6d4afce" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" href="/user/vwbrqcmbtpstwcalfskekj/custom/custom.css" type="text/css" />
+    <script src="/user/vwbrqcmbtpstwcalfskekj/static/components/es6-promise/promise.min.js?v=f004a16cb856e0ff11781d01ec5ca8fe" type="text/javascript" charset="utf-8"></script>
+    <script src="/user/vwbrqcmbtpstwcalfskekj/static/components/preact/index.js?v=5b98fce8b86ce059de89f9e728e16957" type="text/javascript"></script>
+    <script src="/user/vwbrqcmbtpstwcalfskekj/static/components/proptypes/index.js?v=c40890eb04df9811fcc4d47e53a29604" type="text/javascript"></script>
+    <script src="/user/vwbrqcmbtpstwcalfskekj/static/components/preact-compat/index.js?v=d376eb109a00b9b2e8c0d30782eb6df7" type="text/javascript"></script>
+    <script src="/user/vwbrqcmbtpstwcalfskekj/static/components/requirejs/require.js?v=6da8be361b9ee26c5e721e76c6d4afce" type="text/javascript" charset="utf-8"></script>
     <script>
       require.config({
           
-          urlArgs: "v=20170815140245",
+          urlArgs: "v=20170816070648",
           
-          baseUrl: '/user/rsyupkepiurvgowltvfsjj/static/',
+          baseUrl: '/user/vwbrqcmbtpstwcalfskekj/static/',
           paths: {
             'auth/js/main': 'auth/js/main.min',
-            custom : '/user/rsyupkepiurvgowltvfsjj/custom',
-            nbextensions : '/user/rsyupkepiurvgowltvfsjj/nbextensions',
-            kernelspecs : '/user/rsyupkepiurvgowltvfsjj/kernelspecs',
+            custom : '/user/vwbrqcmbtpstwcalfskekj/custom',
+            nbextensions : '/user/vwbrqcmbtpstwcalfskekj/nbextensions',
+            kernelspecs : '/user/vwbrqcmbtpstwcalfskekj/kernelspecs',
             underscore : 'components/underscore/underscore-min',
             backbone : 'components/backbone/backbone-min',
             jquery: 'components/jquery/jquery.min',
@@ -41,14 +44,14 @@
             'jquery-ui': 'components/jquery-ui/ui/minified/jquery-ui.min',
             moment: 'components/moment/moment',
             codemirror: 'components/codemirror',
-            termjs: 'components/term.js/src/term',
-            typeahead: 'components/jquery-typeahead/dist/jquery.typeahead'
+            termjs: 'components/xterm.js/dist/xterm',
+            typeahead: 'components/jquery-typeahead/dist/jquery.typeahead.min',
           },
-	  map: { // for backward compatibility
-	    "*": {
-		"jqueryui": "jquery-ui",
-	    }
-	  },
+          map: { // for backward compatibility
+              "*": {
+                  "jqueryui": "jquery-ui",
+              }
+          },
           shim: {
             typeahead: {
               deps: ["jquery"],
@@ -85,21 +88,6 @@
           }
       });
 
-      define("bootstrap", function () {
-          return window.$;
-      });
-
-      define("jquery", function () {
-          return window.$;
-      });
-
-      define("jqueryui", function () {
-          return window.$;
-      });
-
-      define("jquery-ui", function () {
-          return window.$;
-      });
       // error-catching custom.js shim.
       define("custom", function (require, exports, module) {
           try {
@@ -118,11 +106,15 @@
 
 </head>
 
-<body class="edit_app " 
-data-base-url="/user/rsyupkepiurvgowltvfsjj/"
-data-file-path="Week%204/Deep%20Neural%20Network%20Application%3A%20Image%20Classification/datasets/train_catvnoncat.h5"
+<body class="edit_app "
+ 
+data-base-url="/user/vwbrqcmbtpstwcalfskekj/"
+data-file-path="week5/Regularization/testCases.py"
 
->
+  
+ 
+
+dir="ltr">
 
 <noscript>
     <div id='noscript'>
@@ -133,7 +125,7 @@ data-file-path="Week%204/Deep%20Neural%20Network%20Application%3A%20Image%20Clas
 
 <div id="header">
   <div id="header-container" class="container">
-  <div id="ipython_notebook" class="nav navbar-brand pull-left"><a href="/user/rsyupkepiurvgowltvfsjj/tree" title='dashboard'>
+  <div id="ipython_notebook" class="nav navbar-brand pull-left"><a href="/user/vwbrqcmbtpstwcalfskekj/tree" title='dashboard'>
 <img src='/hub/logo' alt='Jupyter Notebook'/>
 </a></div>
 
@@ -249,11 +241,34 @@ Control Panel</a>
     
 
 
-
-    <script src="/user/rsyupkepiurvgowltvfsjj/static/edit/js/main.min.js?v=cc7536522bdf28a7f0059136b696fd6e" type="text/javascript" charset="utf-8"></script>
-
+<script src="/user/vwbrqcmbtpstwcalfskekj/static/edit/js/main.min.js?v=7eb6af843396244a81afb577aedbaf89" type="text/javascript" charset="utf-8"></script>
 
 
+<script type='text/javascript'>
+  function _remove_token_from_url() {
+    if (window.location.search.length <= 1) {
+      return;
+    }
+    var search_parameters = window.location.search.slice(1).split('&');
+    for (var i = 0; i < search_parameters.length; i++) {
+      if (search_parameters[i].split('=')[0] === 'token') {
+        // remote token from search parameters
+        search_parameters.splice(i, 1);
+        var new_search = '';
+        if (search_parameters.length) {
+          new_search = '?' + search_parameters.join('&');
+        }
+        var new_url = window.location.origin + 
+                      window.location.pathname + 
+                      new_search + 
+                      window.location.hash;
+        window.history.replaceState({}, "", new_url);
+        return;
+      }
+    }
+  }
+  _remove_token_from_url();
+</script>
 </body>
 
 </html>
