@@ -2,7 +2,7 @@ About
 ==========
 The [convolutional-neural-networks](https://www.coursera.org/learn/convolutional-neural-networks/home/welcome) branch is the forth course of  [deep learning specialization](https://www.coursera.org/specializations/deep-learning). The Course contains some techniques concepts and experiments.Happy in the course, Awesome!  
 
-Others Course
+Other Branches
 --------------------------
 - [Neural-Network](https://github.com/rh01/coursera_dl/tree/Neural-Network-dl)
 - [Improving-DNN](https://github.com/rh01/coursera_dl/tree/Improving-DNN)
