@@ -4,10 +4,10 @@ The [convolutional-neural-networks](https://www.coursera.org/learn/convolutional
 
 Others Course
 --------------------------
-- (Neural-Network)[https://github.com/rh01/deeplearning.ai/tree/Neural-Network-dl]
-- d
-- ddd
-- ddd
+- [Neural-Network](https://github.com/rh01/coursera_dl/tree/Neural-Network-dl)
+- [Improving-DNN](https://github.com/rh01/coursera_dl/tree/Improving-DNN)
+- [Neural-Network](https://github.com/rh01/coursera_dl/tree/Structuring-ML-Projects)
+- [CNN](https://github.com/rh01/coursera_dl/)
 
 How to start
 --------------------------
