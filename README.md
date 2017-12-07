@@ -4,7 +4,7 @@ The [convolutional-neural-networks](https://www.coursera.org/learn/convolutional
 
 Others Course
 --------------------------
-- dd
+- (Neural-Network)[https://github.com/rh01/deeplearning.ai/tree/Neural-Network-dl]
 - d
 - ddd
 - ddd
